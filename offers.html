@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Ecohome — Offers</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Multi-page website" />
+    <meta name="author" content="Serhii Voznytsia" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a class="brand" href="index.html" aria-label="Ecohome home"><img src="pic/logo.svg" alt="Ecohome logo" width="148" height="40"></a>
+            <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav">Menu</button>
+            <nav class="site-nav" id="site-nav" aria-label="Primary" data-nav>
+                <a href="index.html">Home</a><a href="thermostats.html">Thermostats</a><a href="sensors.html">Sensors</a><a href="cameras.html">Cameras</a><a href="security-bundles.html">Security &amp; Bundles</a><a href="support.html">Support</a><a href="offers.html" class="is-active">Offers</a>
+            </nav>
+        </div>
+    </header>
+    <main id="content">
+        <section class="page-hero">
+            <div class="container offers-hero">
+                <article class="promo-card promo-card--accent reveal">
+                    <span class="ribbon">Limited promo</span>
+                    <h1>Offer page with promo cards and a campaign rhythm.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis sem et velit volutpat, sed tincidunt turpis blandit.</p>
+                    <div class="hero__actions"><a class="button button--primary" href="#deals">Browse deals</a><a class="button button--secondary" href="security-bundles.html">See bundles</a></div>
+                </article>
+                <figure class="visual-card reveal"><img src="pic/hero-offers.svg" alt="Section illustration for offers" width="1200" height="760"></figure>
+            </div>
+        </section>
+        <section class="section section--alt" id="deals">
+            <div class="container promo-grid">
+                <article class="promo-card reveal"><span class="ribbon">Save now</span>
+                    <h3>Refurbished</h3>
+                    <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </article>
+                <article class="promo-card reveal"><span class="ribbon">Referral</span>
+                    <h3>Share &amp; save</h3>
+                    <p class="muted">Etiam et dui nec odio maximus interdum sit amet id mauris.</p>
+                </article>
+                <article class="promo-card reveal"><span class="ribbon">Bundle bonus</span>
+                    <h3>Layered savings</h3>
+                    <p class="muted">Suspendisse viverra turpis nec tortor vulputate, quis molestie sapien ornare.</p>
+                </article>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container offer-strip">
+                <article class="reveal"><strong>20 off</strong>
+                    <p class="muted">Newsletter entry</p>
+                </article>
+                <article class="reveal"><strong>Free ship</strong>
+                    <p class="muted">Order window</p>
+                </article>
+                <article class="reveal"><strong>0%</strong>
+                    <p class="muted">Installment story</p>
+                </article>
+                <article class="reveal"><strong>30 days</strong>
+                    <p class="muted">Return note</p>
+                </article>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container timeline-card reveal">
+                <span class="eyebrow">Campaign flow</span>
+                <h2>A time-based offer section instead of a generic content stack.</h2>
+                <div class="timeline">
+                    <article><time>Week 1</time>
+                        <div>
+                            <h3>Launch</h3>
+                            <p class="muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id eros nec leo porttitor egestas.</p>
+                        </div>
+                    </article>
+                    <article><time>Week 2</time>
+                        <div>
+                            <h3>Bundle push</h3>
+                            <p class="muted">Nunc ut est et massa ultrices suscipit vitae nec nibh.</p>
+                        </div>
+                    </article>
+                    <article><time>Week 3</time>
+                        <div>
+                            <h3>Last call</h3>
+                            <p class="muted">Morbi malesuada lectus a neque fermentum, eget fermentum ipsum consequat.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container site-footer__grid">
+            <small>© <span data-year></span> Ecohome.</small>
+        </div>
+    </footer>
+</body>
+
+</html>
